@@ -16,7 +16,7 @@ Menu::Menu() : m_vectorTexts() {
 	m_vectorTexts.loadFont("fonts/minecraft.ttf");
     m_vectorTexts.selectFont(1); 
 
-    std::vector<sf::String> titles = { "Catalano y Sabate","Jugar", "Salir", "Cargar","",""};
+    std::vector<sf::String> titles = { "Proyecto Final","Jugar", "Salir", "Cargar","",""};
     for (const auto& obj : titles) {
         sf::Text* aux = new sf::Text();
         aux->setString(obj);
